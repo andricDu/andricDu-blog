@@ -114,7 +114,7 @@ For the UI, I quickly wrote a small single page application in Typescript and Re
 
 I ended up using an off the shelf QR Reader component I found on npm. It worked well enough though sometimes it had issues reading the QR Code from my terminal under certain colour themes.
 
-```
+```jsx
 <div className="column center aligned">
     {
         this.state.showQr
@@ -126,7 +126,7 @@ I ended up using an off the shelf QR Reader component I found on npm. It worked 
 
 ## Ship It!
 
-With the main software components ready, it was time to handle the infrastructure. I needed to figure out how to make my baby monitor reachable form the internet for when I am out the house. I already own a domain, but the real trick is how do I solve the issue of being behind a carrier grade NAT.  
+With the main software components ready, it was time to handle the infrastructure. I needed to figure out how to make my baby monitor reachable from the internet for when I am out the house. I already own a domain, but the real trick is how do I solve the issue of being behind a carrier grade NAT.  
 
 Without going into too much detail, the consequence of being behind a NAT managed by your ISP, is that you and several other customers of your ISP will be using the same public internet IP thus making it impossible to directly route to your home router and baby monitor. An analogy would be the following: imagine if you had a condo building that had no unit numbers. It would be impossible to mail a letter directly to a resident.  
 
