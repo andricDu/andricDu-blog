@@ -1,6 +1,6 @@
 +++
 date = '2016-10-28T23:41:52-05:00'
-draft = true
+draft = false
 title = 'Another cloud in the sky - Azure in a unix shop'
 tags = ["azure", "openstack"]
 +++

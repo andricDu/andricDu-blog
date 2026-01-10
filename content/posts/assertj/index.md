@@ -1,6 +1,6 @@
 +++
 date = '2019-08-19T23:41:52-05:00'
-draft = true
+draft = false
 title = "Don't use assertJ"
 tags = ["java","jdk11", "test", "junit", "assertj"]
 +++

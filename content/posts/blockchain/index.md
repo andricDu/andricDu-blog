@@ -1,6 +1,6 @@
 +++
 date = '2017-03-03T23:41:52-05:00'
-draft = true
+draft = false
 title = 'Distributed Ledgers, Blockchains and Smart Contracts'
 tags = ["blockchain","ethereum"]
 +++

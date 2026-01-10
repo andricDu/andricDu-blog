@@ -1,6 +1,6 @@
 +++
 date = '2020-12-11T23:41:52-05:00'
-draft = true
+draft = false
 title = 'Rust, React, and Raspberry Pi'
 tags = ["rust", "react", "raspberrypi", "arm", "picamera", "actix", "actix-web"]
 +++
@@ -21,7 +21,7 @@ Most new parents will probably be looking to acquire a baby monitor. The potenti
 
 <center>
 <figure style="width: 60%">
-    <img src="{{site.urlimg}}dusan_andric/bombolone/usb-b.png" />
+    <img src="images/usb-b.png" />
     <figcaption>The whole Micro USB B port ended up ripping off of the PCB!</figcaption>
 </figure>
 </center>
@@ -37,7 +37,7 @@ Knowing that night vision capabilities were essential, I made sure to order a Pi
 Once I connected it all together, I validated the functionality of the night vision with a simple python script that utilized the picamera API to serve a mjpg stream over HTTP. You can find an example on how to do this [here](https://picamera.readthedocs.io/en/release-1.13/recipes2.html#web-streaming).
 
 <figure>
-    <img src="{{site.urlimg}}dusan_andric/bombolone/pi-connected.png" />
+    <img src="images/pi-connected.png" />
     <figcaption>Power over USB C, display via HDMI, and Wireless USB dongle for keyboard/mouse.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ There is a utility called mjpg-streamer that allows for the streaming of mjpg fr
 
 <center>
 <figure style="width: 60%">
-    <img src="{{site.urlimg}}dusan_andric/bombolone/arch.png" />
+    <img src="images/arch.png" />
     <figcaption>Even tiny concerns can be separated.</figcaption>
 </figure>
 </center>
@@ -74,7 +74,7 @@ App configuration is handled by the dotenv library, which takes after its NPM na
 
 <center>
 <figure style="width: 70%">
-    <img src="{{site.urlimg}}dusan_andric/bombolone/startup.png" />
+    <img src="images/startup.png" />
     <figcaption>Bombolone on startup. Go ahead, try scanning.</figcaption>
 </figure>
 </center>
@@ -106,7 +106,7 @@ Speaking of a breeze, compiling Rust, and in particular the production builds of
 Being able to do this cross-compilation easily was one of the benefits of decoupling the video generation from the app, as I did not have to deal with any driver linking nonsense. The other benefit turned out to be that I could test my app on an AMD64 machine provided I could generate a video stream from my webcam.  
 
 <figure>
-    <img src="{{site.urlimg}}dusan_andric/bombolone/bombolone-compile.png" />
+    <img src="images/bombolone-compile.png" />
     <figcaption>The package manager for rust is called Cargo.</figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ I solved this problem by deploying a VM in a local data center with which I woul
 
 <center>
 <figure style="width: 50%">
-    <img src="{{site.urlimg}}dusan_andric/bombolone/phone-view.png" />
+    <img src="images/phone-view.png" />
     <figcaption>Up and running.</figcaption>
 </figure>
 </center>
