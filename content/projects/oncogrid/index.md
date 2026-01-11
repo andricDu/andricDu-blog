@@ -18,5 +18,5 @@ Source: https://github.com/oncojs/oncogrid
 
 <figure>
     <img src="images/oncogrid.gif"/>
-    <figcaption>Invoking jq in the editor</figcaption>
+    <figcaption>Oncogrid showing ranking of genes based on mutation occurences</figcaption>
 </figure>
