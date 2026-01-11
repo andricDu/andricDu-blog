@@ -1,5 +1,5 @@
 +++
-date = '2017-02-01T00:00:00'
+date = '2016-10-01T00:00:00'
 title = 'SurvivalPy'
 tags = ["python", "statistics", "genomics", "science"]
 +++
